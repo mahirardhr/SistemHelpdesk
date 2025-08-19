@@ -1,0 +1,28 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up()
+    {
+        Schema::table('laporans', function (Blueprint $table) {
+            // HAPUS atau KOMENTAR baris-baris ini karena kolomnya SUDAH ADA:
+            // $table->text('catatan_selesai')->nullable()->after('status');
+            // $table->boolean('tampilkan_di_kb')->default(false)->after('catatan_selesai');
+        });
+    }
+
+
+    public function down()
+    {
+        Schema::table('laporans', function (Blueprint $table) {
+            $table->dropColumn('tampilkan_di_kb');
+        });
+    }
+};
