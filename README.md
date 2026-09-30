@@ -62,4 +62,4 @@ Publikasi dokumentasi portofolio ini tidak memberikan lisensi penggunaan, penyal
 
 ## Catatan dokumentasi
 
-Deskripsi fitur dan teknologi disusun berdasarkan catatan pengembangan proyek. Screenshot yang ditambahkan ke repositori perlu menggunakan data contoh atau menyamarkan identitas, isi pengaduan, dan informasi internal. Surat pencatatan lengkap tidak disertakan karena memuat alamat pribadi para pihak.
+Deskripsi fitur dan teknologi disusun berdasarkan catatan pengembangan proyek. Surat pencatatan lengkap tidak disertakan karena memuat alamat pribadi para pihak.
